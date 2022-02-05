@@ -1,5 +1,5 @@
 html { 
-    background: url(assets/terriblesbackgounnd.png) no-repeat center center fixed; 
+    background: url(assets/herbst.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -18,21 +18,57 @@ html {
   }
 
   #face-import {
-      position: absolute;
-      border-radius: 80%;
-      left: 46%;
-      top: 235px;
-      width: 150px;
-       height: 200px
+    position: absolute;
+    border-radius: 80%;
+    left: 46%;
+    top: 235px;
+    width: 150px;
+    height: 200px
+  }
+
+  .sticky {
+    display: flex;
+    position: absolute;
+    overflow: auto;
+    width: 600px;
+    left: 35%;
+    top: 442.5px;
+    height: 450px;
+  }
+
+  .sticky-gear {
+    height: 54.9px; 
+    width: 82px;
+    padding-left: 65px;
+    padding-right: 65px;
+  }
+
+  .sticky-gear1{
+    height: 54.9px; 
+    width: 82px;
+    padding-left: 318px;
+    padding-right: 65px;
+  }
+
+  .sticky-gear2 {
+    height: 54.9px; 
+    width: 82px;
+    padding-right: 315px;
+    padding-left: 65px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #00008b;
   }
 
   @media only screen and (max-width: 600px) {
     html { 
-        background: url(assets/terriblesbackgounnd.png) no-repeat center center fixed; 
+        background: url(assets/herbst.png) no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        background-size: 100%;
+        background-size: 90%;
         background-color: #7de1ffff;
       }
 
@@ -48,9 +84,45 @@ html {
       #face-import {
         position: absolute;
         border-radius: 80%;
-        left: 39.5%;
-        top: 30%;
+        left: 84%;
+        top: 70%;
         height: 100px;
         width: 75px;
     }
+
+    .sticky {
+        display: flex;
+        position: absolute;
+        overflow: auto;
+        width: 600px;
+        left: 35%;
+        top: 758px;
+        height: 550px;
+      }
+    
+      .sticky-gear {
+        height: 54.9px; 
+        width: 82px;
+        padding-left: 65px;
+        padding-right: 65px;
+      }
+    
+      .sticky-gear1{
+        height: 54.9px; 
+        width: 82px;
+        padding-left: 318px;
+        padding-right: 65px;
+      }
+    
+      .sticky-gear2 {
+        height: 54.9px; 
+        width: 82px;
+        padding-right: 315px;
+        padding-left: 65px;
+      }
+    
+      a {
+        text-decoration: none;
+        color: #00008b;
+      }
   }
