@@ -34,6 +34,7 @@ html {
     left: 35%;
     top: 442.5px;
     height: 450px;
+    border: 1px solid black;
   }
 
   .sticky-gear {
