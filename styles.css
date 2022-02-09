@@ -30,30 +30,30 @@ html {
     display: flex;
     position: absolute;
     overflow: auto;
-    width: 590px;
-    left: 35%;
-    top: 442.5px;
-    height: 450px;
+    width: 30.75%;
+    left: 34.98%;
+    top: 45.7%;
+    height: 46.5%;
     border: 1px solid black;
   }
 
   .sticky-gear {
-    height: 54.9px; 
-    width: 82px;
+    height: 12.4%; 
+    width: 14%;
     padding-left: 65px;
     padding-right: 65px;
   }
 
   .sticky-gear1{
-    height: 54.9px; 
-    width: 82px;
-    padding-left: 318px;
+    height: 12.4%; 
+    width: 14%;
+    padding-left: 53.9%;
     padding-right: 65px;
   }
 
   .sticky-gear2 {
-    height: 54.9px; 
-    width: 82px;
+    height: 12.4%; 
+    width: 14%;
     padding-right: 315px;
     padding-left: 65px;
   }
@@ -63,7 +63,16 @@ html {
     color: #00008b;
   }
 
-  @media screen and (max-width: 700px) {
+  #filetag {
+    position: absolute;
+    left: 43.399%;
+    bottom: 100%;
+  }
+
+  #applyNow {
+    position: relative;
+  }
+  /* @media screen and (max-width: 700px) {
     html { 
         background: url(assets/herbst.png) no-repeat center center fixed; 
         -webkit-background-size: cover;
@@ -126,4 +135,4 @@ html {
         text-decoration: none;
         color: #00008b;
       }
-  }
+  } */
