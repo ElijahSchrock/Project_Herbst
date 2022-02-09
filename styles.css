@@ -21,9 +21,9 @@ html {
     position: absolute;
     border-radius: 80%;
     left: 46%;
-    top: 235px;
-    width: 150px;
-    height: 200px
+    top: 25%;
+    width: 27.5%;
+    height: 45%;
   }
 
   .sticky {
@@ -62,7 +62,7 @@ html {
     color: #00008b;
   }
 
-  @media only screen and (max-width: 700px) {
+  @media screen and (max-width: 700px) {
     html { 
         background: url(assets/herbst.png) no-repeat center center fixed; 
         -webkit-background-size: cover;
