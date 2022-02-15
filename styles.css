@@ -22,7 +22,7 @@ html {
     position: absolute;
     border-radius: 80%;
     left: 41%;
-    top: 37%;
+    top: 33%;
     width: 16%;
     height: 11%;
   }
@@ -34,7 +34,7 @@ html {
     overflow: auto;
     width: 80%;
     left: 10.3%;
-    top: 51%;
+    top: 47.4%;
     height: 29%;
   }
 
@@ -83,7 +83,6 @@ html {
         -o-background-size: cover;
         background-size: 37%;
         background-color: #7de1ffff;
-        height: 100vh;
         overflow: hidden;
       }
 
