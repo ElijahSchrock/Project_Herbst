@@ -1,112 +1,111 @@
 html { 
+  background: url(assets/herbst.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 90%;
+  background-color: #7de1ffff;
+  height: 100vh;
+  overflow: hidden;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+}
+
+#face-import {
+  position: absolute;
+  border-radius: 80%;
+  left: 41%;
+  top: 38%;
+  width: 16%;
+  height: 11%;
+}
+
+.sticky {
+  /* border: 1px solid black; */
+  display: flex;
+  position: absolute;
+  overflow: auto;
+  width: 80%;
+  left: 10.3%;
+  top: 53%;
+  height: 29%;
+}
+
+.sticky-gear {
+  height: 12.4%; 
+  width: 14%;
+  padding-left: 65px;
+  padding-right: 65px;
+}
+
+.sticky-gear1{
+  height: 12.4%; 
+  width: 14%;
+  padding-left: 53.9%;
+  padding-right: 65px;
+}
+
+.sticky-gear2 {
+  height: 12.4%; 
+  width: 14%;
+  padding-right: 315px;
+  padding-left: 65px;
+}
+
+a {
+  text-decoration: none;
+  color: #00008b;
+}
+
+#filetag {
+  position: absolute;
+  left: 37%;
+  bottom: 100%;
+}
+
+#applyNow {
+  position: relative;
+}
+
+@media screen and (min-width: 700px) {
+html { 
     background: url(assets/herbst.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: 90%;
+    background-size: 37%;
     background-color: #7de1ffff;
-    height: 100vh;
     overflow: hidden;
   }
 
-  footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: black;
-    text-align: center;
+  .sticky {
+    display: flex;
+    position: absolute;
+    overflow: auto;
+    width: 30.75%;
+    left: 34.98%;
+    top: 45.7%;
+    height: 46.5%;
   }
 
   #face-import {
     position: absolute;
     border-radius: 80%;
-    left: 41%;
-    top: 38%;
-    width: 16%;
-    height: 11%;
+    left: 45.5%;
+    top: 23%;
+    width: 8%;
+    height: 19%;
   }
-
-  .sticky {
-    /* border: 1px solid black; */
-    display: flex;
-    position: absolute;
-    overflow: auto;
-    width: 80%;
-    left: 10.3%;
-    top: 53%;
-    height: 29%;
-  }
-
-  .sticky-gear {
-    height: 12.4%; 
-    width: 14%;
-    padding-left: 65px;
-    padding-right: 65px;
-  }
-
-  .sticky-gear1{
-    height: 12.4%; 
-    width: 14%;
-    padding-left: 53.9%;
-    padding-right: 65px;
-  }
-
-  .sticky-gear2 {
-    height: 12.4%; 
-    width: 14%;
-    padding-right: 315px;
-    padding-left: 65px;
-  }
-
-  a {
-    text-decoration: none;
-    color: #00008b;
-  }
-
   #filetag {
     position: absolute;
-    left: 37%;
+    left: 43.399%;
     bottom: 100%;
   }
-
-  #applyNow {
-    position: relative;
-  }
-
-
-   @media screen and (min-width: 700px) {
-    html { 
-        background: url(assets/herbst.png) no-repeat center center fixed; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: 37%;
-        background-color: #7de1ffff;
-        overflow: hidden;
-      }
-
-      .sticky {
-        display: flex;
-        position: absolute;
-        overflow: auto;
-        width: 30.75%;
-        left: 34.98%;
-        top: 45.7%;
-        height: 46.5%;
-      }
-
-      #face-import {
-        position: absolute;
-        border-radius: 80%;
-        left: 45.5%;
-        top: 23%;
-        width: 8%;
-        height: 19%;
-      }
-      #filetag {
-        position: absolute;
-        left: 43.399%;
-        bottom: 100%;
-      }
-  }
+}
